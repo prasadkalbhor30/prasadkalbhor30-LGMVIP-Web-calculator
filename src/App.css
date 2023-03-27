@@ -1,0 +1,137 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title{
+  font-size: large;
+  font-weight: 800;
+}
+.main {
+  margin-top: 50px;
+  width: 40%;
+  height: 60%;
+  background-color: #1c0a3b;
+  border-radius: 20px;
+  padding: 14px;
+}
+
+.top {
+  width: 100%;
+  height: 13vh;
+  display: flex;
+  align-items: center;
+}
+
+.bottom {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.top-left {
+  width: 85%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.top-right {
+  width: 15%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-left {
+  width: 85%;
+  height: 100%;
+}
+
+.bottom-right {
+  width: 15%;
+  height: 100%;
+}
+
+.btn-block {
+  width: 100%;
+  height: 16%;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left-btn {
+  width: 30%;
+  height: 100%;
+  background-color: #8f00a7e0;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.right-btn {
+  width: 80%;
+  height: 90%;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: #8f00a7e0;
+
+}
+
+input {
+  border-radius: 10px;
+}
+
+input[type=text] {
+  width: 96%;
+  height: 100%;
+  background-color: #8de4cc;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 4px;
+}
+
+.color {
+  background-color: #e91e63;
+}
+
+.top-left .icon {
+  position: absolute;
+  top: 35%;
+  right: 5%;
+  color: black;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 1325px) {
+  .main {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .main {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .main {
+    width: 100%;
+  }
+}
